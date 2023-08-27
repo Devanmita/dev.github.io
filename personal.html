@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<style type="text/css">
+		body{
+			background-color: #e61515;
+			font-family: Arial, sans-serif;
+			font-size: 30px;
+            color:rgb(252, 235, 5);
+            line-height: 1.5;
+			margin: 10px;
+			padding: 0;
+            background-image: url("abc.jpg");
+		}
+		header{
+			background-color: #ed05b75e;
+			color: #a9c112;
+			padding: 20px;
+			text-align: center;
+		}
+		main{
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		h1{
+            background-image: url("image.jpg");
+            font-family:'Times New Roman';
+            color: aqua;
+			font-size: 45px;
+			margin-top: 0;
+		}
+		h2{
+            font-family: "lucida";
+            color: rgb(34, 128, 216);
+			font-size: 40px;
+			margin-top: 20px;
+		}
+        h3{
+            font-family:monospace;
+            font-size: 30px;
+            color: #a9ce22;
+        }
+		p{
+            font-family: 'Lucida Sans Unicode';
+            font-size:15px;
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+		img{
+			display: block;
+			margin: 0 auto;
+			max-width: 40%;
+			height: auto;
+            float: right;
+            border-radius: 5000px;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-top: 20px;
+            width: 450px;
+		}
+		.box {
+        background-color: #1b046cc7;
+        width: 300px; /* Adjust the width to your preferred value */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        width: calc(33.33% - 25px);
+        }
+		.box h3{
+            max-width: 1000px;
+			margin-top: 0;
+            border-radius: 10px;
+		}
+		.box p{
+			margin-top: 10px;
+			margin-bottom: 0;
+		}
+		.box img{
+			margin-top: 20px;
+			max-width: 100%;
+			height: auto;
+		}
+		@media screen and (max-width: 768px){
+			.container{
+				flex-direction: column;
+			}
+			.box{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Profile</h1>
+	</header>
+	<main>
+		<h2>About Me</h2>
+		<p>
+            <table>
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Devanmita Sahu</td>
+                    </tr>
+                    <tr>
+                      <td>Course:</td>
+                      <td>B.Tech</td>
+                    </tr>
+                    <tr>
+                      <td>Stream: </td>
+                      <td>Computer Science Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>devanmita2005@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Blood Grp:</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>Female</td>
+                    </tr>
+                    <tr>
+                        <td>DOB:</td>
+                        <td>June 2nd, 2005</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>Flat no.3, Jeevan Jyothi Aprt</td>
+                    </tr>
+                    <tr>
+                        <td>District:</td>
+                        <td>Bangalore</td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td>Karnataka</td>
+                    </tr>
+                    <tr>
+                        <td>Country:</td>
+                        <td>India</td>
+                    </tr>
+                    <tr>
+                        <td>Class 10th:</td>
+                        <td>Sri Chaitanya Techno School</td>
+                    </tr>
+                    <tr>
+                        <td>Class 12th:</td>
+                        <td>Sri Chaitanya PU College</td>
+                    </tr>
+                    <tr>
+                        <td>Mother tongue:</td>
+                        <td>Odia</td>
+                    </tr>
+                    <tr>
+                        <td>Lang I know:</td>
+                        <td>English,Telugu,Odia,Hindi</td>
+                    </tr>
+                    <tr>
+                        <td>Phone no.:</td>
+                        <td>6362952354</td>
+                    </tr>
+                  </table>
+
+        
+        </p>
+		<img src="xyz.gif" alt="animation.gif" style="float: right;">
+		<h2>Student at NMAMIT</h2>
+		<div class="container">
+			<div class="box">
+				<h3>Details</h3>
+				<p>Devanmita Sahu
+                    Computer Science Engineering
+                    C section
+                    B.Tech,
+                    USN:NNM22CS059
+                    NMAMIT Karkala
+                    Mangalore
+                </p>
+				<img src="pic.jpeg" alt="Service 1">
+			</div>
+		</div>
+    </main>
+</body>
+</html>
+        
